@@ -36,8 +36,10 @@ Download historical market data from Comon for a given trader id
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getSymbols.Comon('115038')
 getSymbols('115039',src='Comon')
+}
 }
 \author{
 Vyacheslav Arbuzov

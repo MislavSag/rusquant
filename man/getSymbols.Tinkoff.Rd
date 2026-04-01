@@ -48,7 +48,9 @@ Retrieve financial data from Tinkoff API.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getSymbols.Tinkoff("BBG004730N88",from=Sys.Date()-5, ap.key = "your_api_key",verbose=TRUE)
+}
 }
 \author{
 Vyacheslav Arbuzov

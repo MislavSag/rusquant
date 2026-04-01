@@ -48,8 +48,10 @@ This function retrieves order book information
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getOrderbook('USDTGBP', src = 'kraken')
 getOrderbook('BTC_USDT', src = 'poloniex')
+}
 }
 \author{
 Vyacheslav Arbuzov

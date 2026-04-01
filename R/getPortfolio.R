@@ -9,6 +9,7 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' # Retrieve portfolio data from Tinkoff
 #' getPortfolio(src = 'tinkoff', api.key = 'my_api_key', clientId = 'my_client_id')
 #'
@@ -17,6 +18,7 @@
 #'
 #' # Retrieve portfolio data from Alor
 #' getPortfolio(src = 'alor', api.key = 'my_api_key', clientId = 'my_client_id', board = 'MOEX')
+#' }
 #' @export
 
 getPortfolio = function(src = '',

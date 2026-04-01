@@ -22,9 +22,11 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getSymbolList()
 #' #getSymbolList(src='moex')
 #' #getSymbolList(src='moex',type='Forts')
+#' }
 #' @export
 
 getSymbolList <- function(src='poloniex',
@@ -163,7 +165,7 @@ getSymbolList <- function(src='poloniex',
     endpoint = '/api/v1/securities/'
     full_url <- paste0(url, endpoint)
     headers = c('X-Api-Key' =  api.key)
-    response <- GET(full_url, body = body, encode = "json", add_headers(headers))
+    response <- GET(full_url, add_headers(headers))
     if(response$status_code==200)
     {
       json_response <- content(response, "text", encoding = "UTF-8")

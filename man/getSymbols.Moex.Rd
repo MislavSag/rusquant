@@ -48,7 +48,9 @@ Retrieves historical data of a stock from Moscow Exchange (MOEX) using its API.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 data <- getSymbols.Moex('GAZP', from='2022-01-01', to='2022-01-10', period='day', auto.assign=FALSE)
+}
 }
 \author{
 Vyacheslav Arbuzov

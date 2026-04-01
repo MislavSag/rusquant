@@ -51,8 +51,10 @@ Download historical market data from Alor for a given symbol and time range.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getSymbols.Alor('SBER',from = '2023-04-01',to='2023-05-04',period = '1min')
 getSymbols('SBER',src='Alor')
+}
 }
 \author{
 Vyacheslav Arbuzov

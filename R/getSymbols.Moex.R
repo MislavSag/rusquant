@@ -17,7 +17,9 @@
 #' @author Vyacheslav Arbuzov
 #'
 #' @examples
+#' \dontrun{
 #' data <- getSymbols.Moex('GAZP', from='2022-01-01', to='2022-01-10', period='day', auto.assign=FALSE)
+#' }
 #' @export
 
 
@@ -37,6 +39,7 @@
     on.exit(options(old))
     options(timeout=7)
     V2 <- V14 <- V15 <- begin <- high <- low <- volume <- NULL
+    group <- primary_boardid <- secid <- NULL
     for(Symbol.name in Symbols)
     {
       periods = c('day'=24, 'hour'=60, '10min'=10, '1min'=1)

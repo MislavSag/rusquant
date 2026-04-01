@@ -23,7 +23,9 @@ This function retrieves economic data from the investing.com website for a speci
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getEconomic(from = Sys.Date(),to = Sys.Date()+35,country='Belgium')
+}
 }
 \author{
 Vyacheslav Arbuzov

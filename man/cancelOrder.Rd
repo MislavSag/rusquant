@@ -39,5 +39,7 @@ This function cancels an existing order on a specified broker or exchange platfo
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 cancelOrder(src = 'Finam',api.key = 'finam_token',orderId = 'otderID',clientId = 'your cliend id')
+}
 }

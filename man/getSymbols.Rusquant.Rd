@@ -52,7 +52,7 @@ The data can be returned in either xts or data.frame format.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
-\donttest{
+\dontrun{
 rusquant_key = 'get free key from rusquant.ru'
 getSymbols.Rusquant('SBER',field = 'A1_L_P1',api.key = rusquant_key)
 getSymbols('SBER',src='Rusquant',field = 'A1_L_P1',api.key = rusquant_key)

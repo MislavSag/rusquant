@@ -12,7 +12,9 @@
 #' @return character string, the response message from the HTTP request
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @examples
+#' \dontrun{
 #' cancelOrder(src = 'Finam',api.key = 'finam_token',orderId = 'otderID',clientId = 'your cliend id')
+#' }
 #' @export
 
 cancelOrder = function(src = '',api.key = '',orderId = '',clientId = '',board = '', live = TRUE,verbose=TRUE)

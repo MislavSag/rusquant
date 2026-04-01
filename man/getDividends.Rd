@@ -36,7 +36,9 @@ This function returns dividends data from Investing.com or Tinkoff broker.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getDividends(from = Sys.Date(),to = Sys.Date()+2,country = "Australia")
+}
 }
 \author{
 Vyacheslav Arbuzov

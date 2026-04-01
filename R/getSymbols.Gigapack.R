@@ -19,7 +19,9 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getSymbols.Gigapack('SBER', field = 'disb.q20')
+#' }
 #' @export
 
 getSymbols.Gigapack <- function(Symbols,

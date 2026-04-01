@@ -54,8 +54,10 @@ Download historical data from Finam.ru for one or more stock symbols. The data c
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 api_key = 'set_if_use_API'
 getSymbols('SBER',src='Finam',api.key = api_key)
+}
 }
 \author{
 Vyacheslav Arbuzov

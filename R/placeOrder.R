@@ -20,6 +20,7 @@
 #' @return A list with the result of the order placement.
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @examples
+#' \dontrun{
 #' myorder = placeOrder(src = 'alor',
 #'                      symbol = 'MTLR-6.23',
 #'                      board = 'MOEX',
@@ -29,6 +30,7 @@
 #'                      lmtPrice = 20000,
 #'                      api.key = '',
 #'                      clientId = 'cliendID')
+#' }
 #' @import quantmod
 #' @import data.table
 #' @import jsonlite

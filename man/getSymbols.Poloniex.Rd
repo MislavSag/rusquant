@@ -51,8 +51,10 @@ This function retrieves financial data from Poloniex.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getSymbols.Poloniex('BTC_USDT')
 #getSymbols('BTC_USDT',src='Poloniex')
+}
 
 }
 \author{

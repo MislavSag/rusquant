@@ -39,6 +39,7 @@ This function retrieves information about orders from different brokers/exchange
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 # Retrieve all orders from Tinkoff
 getOrders(src = "tinkoff", api.key = "your_api_key", clientId = "your_client_id")
 
@@ -47,6 +48,7 @@ getOrders(src = "finam", api.key = "your_api_key", clientId = "your_client_id")
 
 # Retrieve all orders from Alor
 getOrders(src = "alor", api.key = "your_api_key", clientId = "your_client_id")
+}
 }
 \seealso{
 \code{\link{getTrades}} \code{\link{cancelOrder}} \code{\link{placeOrder}}

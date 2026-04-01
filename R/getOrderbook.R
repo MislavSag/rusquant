@@ -18,8 +18,10 @@
 #' @author Vyacheslav Arbuzov
 #'
 #' @examples
+#' \dontrun{
 #' getOrderbook('USDTGBP', src = 'kraken')
 #' getOrderbook('BTC_USDT', src = 'poloniex')
+#' }
 #' @export
 
 "getOrderbook" <- function #S3 function (Poloniex is a class of first argument)

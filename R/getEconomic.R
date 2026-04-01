@@ -9,7 +9,9 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getEconomic(from = Sys.Date(),to = Sys.Date()+35,country='Belgium')
+#' }
 #' @export
 
 

@@ -48,8 +48,10 @@ This function retrieves historical financial data for a given symbol from the Ma
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getSymbols.MarketWatch(Symbols = 'liborusd3m',market = 'interestrate',countrycode = 'mx')
 #getSymbols.MarketWatch(Symbols = 'tmubmusd03m',market = 'bond',countrycode = 'bx')
+}
 }
 \author{
 Vyacheslav Arbuzov

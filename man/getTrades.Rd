@@ -45,7 +45,9 @@ Get trades for a given broker from a specified date to the current date.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getTrades(src = "tinkoff", api.key = "tks token", clientId = "clientID", figi = "figi",verbose=TRUE)
+}
 }
 \author{
 Vyacheslav Arbuzov

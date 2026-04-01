@@ -13,7 +13,9 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getDividends(from = Sys.Date(),to = Sys.Date()+2,country = "Australia")
+#' }
 #' @export
 
 "getDividends" <- function(src='investing',figi='',api.key='',from=Sys.Date()-10,to=Sys.Date(),country='')

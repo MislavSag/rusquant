@@ -15,6 +15,7 @@
 #' @author Vyacheslav Arbuzov
 #' @seealso \code{\link{getTrades}} \code{\link{cancelOrder}} \code{\link{placeOrder}}
 #' @examples
+#' \dontrun{
 #' # Retrieve all orders from Tinkoff
 #' getOrders(src = "tinkoff", api.key = "your_api_key", clientId = "your_client_id")
 #'
@@ -23,6 +24,7 @@
 #'
 #' # Retrieve all orders from Alor
 #' getOrders(src = "alor", api.key = "your_api_key", clientId = "your_client_id")
+#' }
 #' @export
 
 getOrders = function(src = '',

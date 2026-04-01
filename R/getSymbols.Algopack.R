@@ -16,6 +16,7 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' x = getSymbols.Algopack('SBER',from = '2023-10-24',to='2023-11-04')
 #' # market concentration for available stocks
 #' #getSymbols.Algopack(date = '2024-05-10',type = 'hi2')
@@ -27,6 +28,7 @@
 #' #getSymbols.Algopack(date = '2024-05-10',type = 'hi2',market='fo')
 #' # market concentration for CNYRUB_TOM
 #' #getSymbols.Algopack(Symbols = 'CNYRUB_TOM',type = 'hi2',market='fx')
+#' }
 #' @export
 
 

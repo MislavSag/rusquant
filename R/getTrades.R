@@ -17,7 +17,9 @@
 #' @author Vyacheslav Arbuzov
 #'
 #' @examples
+#' \dontrun{
 #' getTrades(src = "tinkoff", api.key = "tks token", clientId = "clientID", figi = "figi",verbose=TRUE)
+#' }
 #' @export
 
 getTrades = function(src='',api.key = '',clientId='',figi ='',from = Sys.Date()-5, to = Sys.Date(), symbol_info = FALSE, time_transform = TRUE, verbose = FALSE)

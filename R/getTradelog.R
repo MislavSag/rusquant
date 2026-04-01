@@ -19,9 +19,11 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getTradelog('BTC_USDT', src = 'poloniex')
 #' getTradelog('SBER', src = 'moex')
 #' getTradelog('SiH5', src = 'moex',market='forts')
+#' }
 #' @export
 
 "getTradelog" <- function

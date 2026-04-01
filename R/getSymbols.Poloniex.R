@@ -18,8 +18,10 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getSymbols.Poloniex('BTC_USDT')
 #' #getSymbols('BTC_USDT',src='Poloniex')
+#' }
 #'
 #' @export
 

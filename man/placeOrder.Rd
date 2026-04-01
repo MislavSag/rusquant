@@ -60,6 +60,7 @@ This function place an existing order on a specified broker or exchange platform
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 myorder = placeOrder(src = 'alor',
                      symbol = 'MTLR-6.23',
                      board = 'MOEX',
@@ -69,4 +70,5 @@ myorder = placeOrder(src = 'alor',
                      lmtPrice = 20000,
                      api.key = '',
                      clientId = 'cliendID')
+}
 }

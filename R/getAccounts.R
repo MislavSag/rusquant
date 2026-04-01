@@ -11,11 +11,13 @@
 #' @author Vyacheslav Arbuzov
 #'
 #' @examples
+#' \dontrun{
 #' # get account information from tinkoff
 #' account_info <- getAccounts(src = "Tinkoff", api.key = "your_api_key")
 #'
 #' # get account information from alor
 #' account_info <- getAccounts(src = "Alor", api.key = "your_api_key")
+#' }
 #'
 #' @export
 

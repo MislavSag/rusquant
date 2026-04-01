@@ -23,11 +23,13 @@ This function retrieves account information from a brokerage or exchange.
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 # get account information from tinkoff
 account_info <- getAccounts(src = "Tinkoff", api.key = "your_api_key")
 
 # get account information from alor
 account_info <- getAccounts(src = "Alor", api.key = "your_api_key")
+}
 
 }
 \author{

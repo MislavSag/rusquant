@@ -12,8 +12,10 @@
 #' @note Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 #' @author Vyacheslav Arbuzov
 #' @examples
+#' \dontrun{
 #' getSymbols.Comon('115038')
 #' getSymbols('115039',src='Comon')
+#' }
 #' @export
 
 getSymbols.Comon <- function(Symbols,

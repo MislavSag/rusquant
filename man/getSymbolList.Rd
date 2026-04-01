@@ -49,9 +49,11 @@ The function returns a data.table object containing the symbol information for t
 Not for the faint of heart. All profits and losses related are yours and yours alone. If you don't like it, write it yourself.
 }
 \examples{
+\dontrun{
 getSymbolList()
 #getSymbolList(src='moex')
 #getSymbolList(src='moex',type='Forts')
+}
 }
 \author{
 Vyacheslav Arbuzov
